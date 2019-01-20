@@ -1,0 +1,35 @@
+CompleteShell v0.2
+
+N perl v0.0.1 ..'The Perl 5 language interpreter'
+
+O -0                .."specify record separator (\0, if no argument)"
+O -a                .."autosplit mode with -n or -p (splits $_ into @F)"
+O -C =number        .."enables the listed Unicode features"
+O -c                .."check syntax only (runs BEGIN and CHECK blocks)"
+O -d =debugger      .."run program under debugger"
+O -D =number        .."set debugging flags (argument is a bit mask or alphabets)"
+O -e =program       .."one line of program (several -e's allowed, omit programfile)"
+O -E =program       .."like -e, but enables all optional features"
+O -f                .."don't do $sitelib/sitecustomize.pl at startup"
+O -F =pattern       .."split() pattern for -a switch (//'s are optional)"
+O -i =extension     .."edit <> files in place (makes backup if extension supplied)"
+O -I =dir           .."specify @INC/#include directory (several -I's allowed)"
+O -l                .."enable line ending processing, specifies line terminator"
+O -m =module        .."execute 'use/no module...' before executing program"
+O -M =module        .."execute 'use/no module...' before executing program"
+O -n                .."assume 'while (<>) { ... }' loop around program"
+O -p                .."assume loop like -n but print line also, like sed"
+O -s                .."enable rudimentary parsing for switches after programfile"
+O -S                .."look for programfile using PATH environment variable"
+O -t                .."enable tainting warnings"
+O -T                .."enable tainting checks"
+O -u                .."dump core after parsing program"
+O -U                .."allow unsafe operations"
+O -v                .."print version, patchlevel and license"
+O -V =variable      .."print configuration summary (or a single Config.pm variable)"
+O -w                .."enable many useful warnings"
+O -W                .."enable all warnings"
+O -x =dir           .."ignore text before #!perl line (optionally cd to directory)"
+O -X                .."disable all warnings"
+
+A +file
