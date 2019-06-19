@@ -1,23 +1,23 @@
 # shellcheck shell=bash disable=2034
 
 number() {
-  hint ''
+  hint 'Enter a number'
 }
 
 debugger() {
-  hint ''
+  hint 'Enter a debugger module'
 }
 
 program() {
-  hint ''
+  hint 'Enter a program'
 }
 
 pattern() {
-  hint ''
+  hint 'Enter a pattern'
 }
 
 extension() {
-  hint ''
+  hint 'Enter an extension'
 }
 
 module() {
