@@ -1,6 +1,7 @@
 CompleteShell v0.2
 
 N perl v0.0.1 ..'The Perl 5 language interpreter'
+M tags perl perl5
 
 O -0                .."specify record separator (\0, if no argument)"
 O -a                .."autosplit mode with -n or -p (splits $_ into @F)"
